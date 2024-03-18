@@ -1,0 +1,2972 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2"
+     versionIRI="http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2/1.2.0">
+    <Prefix name="mto" IRI="http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="sumo" IRI="http://www.ontologyportal.org/SUMO.owl.html#"/>
+    <Prefix name="opla-sd" IRI="http://ontologydesignpatterns.org/opla-sd#"/>
+    <Declaration>
+        <Class IRI="#ActiveHammerstone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgentEnvironment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AntlerTool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anvil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AuxiliaryResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Billet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BipolarFlaking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlankFlake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BoneTool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brittleness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Burin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chopper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompositeEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoreReduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoreToolModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrackedBone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrackingBone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CraftingOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CraftingRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CraftingSequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CuttingTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Debris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlakeRemoval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlakeToolModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlakingTechniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreehandFlaking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hammerstone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HardHammerFlaking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Isotropism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LevalloisSequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LithicTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lomekwian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialDiscovering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oldowan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PassiveHammerFlaking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PassiveHammerstone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PercussiveOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoundingTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PressureFlaker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Procurement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Punch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RawMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RawMaterialAcquisition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReducedStoneCore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResultEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RockGrainSize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scraper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ScrapingTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SharpEdgeLenght"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SizeAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoneCore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoneTool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoneToolIndustries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoneToolModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StructuralAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaskMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaskSequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToolEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToolMaking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToolProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToolSelecting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToolUse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WoodenTool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WorkedMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WorkedResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:Plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:Stone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:Technique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:abstract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:ambulating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:bodyMotion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:bodySubstance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:bone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:corpuscularObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:deciding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:discovery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:eyeMotion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:geographicArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:grabbing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:impacting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:intentionalProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:intentionalPsychologicalProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:internalAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:looking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:making"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:motion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:physical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:procedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:processTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:proposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:relationalAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:rotating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:satisfyingRequirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:selecting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:selfConnectedObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:substance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:tissue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:touching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:transfer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:translocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumo:wood"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#apply"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#define"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#direct"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#examine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#find"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#guide"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haveActive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haveAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#havePassive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haveRole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMadeBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#madeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#modify"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#need"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perform"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produce"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#select"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#use"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#useTechnique"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="opla-sd:entityPosition"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="opla-sd:entityPositionX"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="opla-sd:entityPositionY"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ActiveHammerstone"/>
+        <Class IRI="#Hammerstone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agent"/>
+        <Class IRI="#sumo:object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgentEnvironment"/>
+        <Class IRI="#sumo:geographicArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antler"/>
+        <Class IRI="#sumo:bone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AntlerTool"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anvil"/>
+        <Class IRI="#StoneTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AuxiliaryResource"/>
+        <Class IRI="#CraftingRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Billet"/>
+        <Class IRI="#AntlerTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Billet"/>
+        <Class IRI="#BoneTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Billet"/>
+        <Class IRI="#WoodenTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BipolarFlaking"/>
+        <Class IRI="#FlakingTechniques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlankFlake"/>
+        <Class IRI="#Flake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoneTool"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brittleness"/>
+        <Class IRI="#StructuralAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burin"/>
+        <Class IRI="#StoneTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chopper"/>
+        <Class IRI="#StoneTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompositeEvaluation"/>
+        <Class IRI="#sumo:intentionalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoreReduction"/>
+        <Class IRI="#LithicTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoreToolModel"/>
+        <Class IRI="#StoneToolModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrackedBone"/>
+        <Class IRI="#Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrackingBone"/>
+        <Class IRI="#PoundingTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CraftingOperation"/>
+        <Class IRI="#sumo:making"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CraftingRole"/>
+        <Class IRI="#sumo:relationalAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CraftingSequence"/>
+        <Class IRI="#ToolMaking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CuttingTask"/>
+        <Class IRI="#Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Debris"/>
+        <Class IRI="#sumo:artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flake"/>
+        <Class IRI="#StoneTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlakeRemoval"/>
+        <Class IRI="#LithicTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlakeToolModel"/>
+        <Class IRI="#StoneToolModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlakingTechniques"/>
+        <Class IRI="#sumo:Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreehandFlaking"/>
+        <Class IRI="#FlakingTechniques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goal"/>
+        <Class IRI="#sumo:artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hammerstone"/>
+        <Class IRI="#StoneTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HardHammerFlaking"/>
+        <Class IRI="#FreehandFlaking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Isotropism"/>
+        <Class IRI="#StructuralAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LevalloisSequence"/>
+        <Class IRI="#sumo:Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LithicTechnology"/>
+        <Class IRI="#CraftingSequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lomekwian"/>
+        <Class IRI="#StoneToolIndustries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialDiscovering"/>
+        <Class IRI="#sumo:discovery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialEvaluation"/>
+        <Class IRI="#CompositeEvaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oldowan"/>
+        <Class IRI="#StoneToolIndustries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PassiveHammerFlaking"/>
+        <Class IRI="#FlakingTechniques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PassiveHammerstone"/>
+        <Class IRI="#Hammerstone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PercussiveOperation"/>
+        <Class IRI="#TaskSequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoundingTask"/>
+        <Class IRI="#Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PressureFlaker"/>
+        <Class IRI="#AntlerTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PressureFlaker"/>
+        <Class IRI="#BoneTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Procurement"/>
+        <Class IRI="#RawMaterialAcquisition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Punch"/>
+        <Class IRI="#AntlerTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Punch"/>
+        <Class IRI="#BoneTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Punch"/>
+        <Class IRI="#WoodenTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RawMaterial"/>
+        <Class IRI="#CraftingRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RawMaterialAcquisition"/>
+        <Class IRI="#CraftingOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReducedStoneCore"/>
+        <Class IRI="#StoneCore"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resource"/>
+        <Class IRI="#CraftingRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResultEvaluation"/>
+        <Class IRI="#CompositeEvaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RockGrainSize"/>
+        <Class IRI="#StructuralAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scraper"/>
+        <Class IRI="#StoneTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ScrapingTask"/>
+        <Class IRI="#Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SharpEdgeLenght"/>
+        <Class IRI="#StructuralAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SizeAttribute"/>
+        <Class IRI="#StructuralAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoneCore"/>
+        <Class IRI="#sumo:Stone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoneTool"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoneToolIndustries"/>
+        <Class IRI="#sumo:relationalAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoneToolModel"/>
+        <Class IRI="#sumo:Plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StructuralAttribute"/>
+        <Class IRI="#sumo:internalAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Task"/>
+        <Class IRI="#sumo:intentionalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaskMaterial"/>
+        <Class IRI="#CraftingRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaskSequence"/>
+        <Class IRI="#ToolUse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tool"/>
+        <Class IRI="#sumo:corpuscularObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tool"/>
+        <Class IRI="#sumo:device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToolEvaluation"/>
+        <Class IRI="#CompositeEvaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToolMaking"/>
+        <Class IRI="#CraftingOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToolProduct"/>
+        <Class IRI="#CraftingRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToolSelecting"/>
+        <Class IRI="#sumo:selecting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToolUse"/>
+        <Class IRI="#CraftingOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WoodenTool"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WorkedMaterial"/>
+        <Class IRI="#CraftingRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WorkedResource"/>
+        <Class IRI="#CraftingRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:Method"/>
+        <Class IRI="#sumo:procedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:Plan"/>
+        <Class IRI="#sumo:procedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:Stone"/>
+        <Class IRI="#sumo:rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:Technique"/>
+        <Class IRI="#sumo:Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:abstract"/>
+        <Class IRI="#sumo:Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:ambulating"/>
+        <Class IRI="#sumo:bodyMotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:artifact"/>
+        <Class IRI="#sumo:corpuscularObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:attribute"/>
+        <Class IRI="#sumo:abstract"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:bodyMotion"/>
+        <Class IRI="#sumo:motion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:bodySubstance"/>
+        <Class IRI="#sumo:substance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:bone"/>
+        <Class IRI="#sumo:tissue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:corpuscularObject"/>
+        <Class IRI="#sumo:selfConnectedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:deciding"/>
+        <Class IRI="#sumo:selecting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:device"/>
+        <Class IRI="#sumo:artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:discovery"/>
+        <Class IRI="#sumo:intentionalPsychologicalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:eyeMotion"/>
+        <Class IRI="#sumo:bodyMotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:geographicArea"/>
+        <Class IRI="#sumo:region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:grabbing"/>
+        <Class IRI="#sumo:touching"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:impacting"/>
+        <Class IRI="#sumo:touching"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:intentionalProcess"/>
+        <Class IRI="#sumo:process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:intentionalPsychologicalProcess"/>
+        <Class IRI="#sumo:intentionalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:internalAttribute"/>
+        <Class IRI="#sumo:attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:looking"/>
+        <Class IRI="#sumo:intentionalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:making"/>
+        <Class IRI="#sumo:intentionalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:motion"/>
+        <Class IRI="#sumo:process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:object"/>
+        <Class IRI="#sumo:physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:physical"/>
+        <Class IRI="#sumo:Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:procedure"/>
+        <Class IRI="#sumo:proposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:process"/>
+        <Class IRI="#sumo:physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:processTask"/>
+        <Class IRI="#sumo:abstract"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:proposition"/>
+        <Class IRI="#sumo:abstract"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:region"/>
+        <Class IRI="#sumo:object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:relationalAttribute"/>
+        <Class IRI="#sumo:attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:rock"/>
+        <Class IRI="#sumo:substance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:rotating"/>
+        <Class IRI="#sumo:motion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:satisfyingRequirements"/>
+        <Class IRI="#sumo:processTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:selecting"/>
+        <Class IRI="#sumo:intentionalPsychologicalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:selfConnectedObject"/>
+        <Class IRI="#sumo:object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:substance"/>
+        <Class IRI="#sumo:selfConnectedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:tissue"/>
+        <Class IRI="#sumo:bodySubstance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:touching"/>
+        <Class IRI="#sumo:transfer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:transfer"/>
+        <Class IRI="#sumo:translocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:translocation"/>
+        <Class IRI="#sumo:motion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumo:wood"/>
+        <Class IRI="#sumo:tissue"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#ActiveHammerstone"/>
+        <Class IRI="#PassiveHammerstone"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BipolarFlaking"/>
+        <Class IRI="#FreehandFlaking"/>
+        <Class IRI="#PassiveHammerFlaking"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BlankFlake"/>
+        <Class IRI="#Debris"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CoreToolModel"/>
+        <Class IRI="#FlakeToolModel"/>
+    </DisjointClasses>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#haveActive"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#apply"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#belongTo"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#define"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#direct"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#haveAttribute"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isMadeBy"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#modify"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#produce"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#select"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#useTechnique"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#apply"/>
+        <Class IRI="#CraftingOperation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongTo"/>
+        <Class IRI="#sumo:object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#define"/>
+        <Class IRI="#CompositeEvaluation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#direct"/>
+        <Class IRI="#Tool"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#examine"/>
+        <Class IRI="#CompositeEvaluation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#find"/>
+        <Class IRI="#Procurement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#guide"/>
+        <Class IRI="#Task"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haveActive"/>
+        <Class IRI="#sumo:Technique"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haveAttribute"/>
+        <Class IRI="#sumo:physical"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#havePassive"/>
+        <Class IRI="#sumo:Technique"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haveRole"/>
+        <Class IRI="#sumo:selfConnectedObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMadeBy"/>
+        <Class IRI="#sumo:artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#madeOf"/>
+        <Class IRI="#sumo:artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#modify"/>
+        <Class IRI="#sumo:process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#need"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perform"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#produce"/>
+        <Class IRI="#sumo:process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#select"/>
+        <Class IRI="#sumo:selecting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#use"/>
+        <Class IRI="#sumo:process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#useTechnique"/>
+        <Class IRI="#sumo:Plan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#apply"/>
+        <Class IRI="#CompositeEvaluation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#apply"/>
+        <Class IRI="#sumo:intentionalPsychologicalProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#apply"/>
+        <Class IRI="#sumo:motion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongTo"/>
+        <Class IRI="#sumo:relationalAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#define"/>
+        <Class IRI="#CraftingRole"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#direct"/>
+        <Class IRI="#CraftingOperation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#examine"/>
+        <Class IRI="#sumo:selfConnectedObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#find"/>
+        <Class IRI="#sumo:selfConnectedObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#guide"/>
+        <Class IRI="#CraftingOperation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#haveActive"/>
+        <Class IRI="#sumo:selfConnectedObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#haveAttribute"/>
+        <Class IRI="#StructuralAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#havePassive"/>
+        <Class IRI="#sumo:selfConnectedObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#haveRole"/>
+        <Class IRI="#CraftingRole"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMadeBy"/>
+        <Class IRI="#sumo:Plan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#madeOf"/>
+        <Class IRI="#sumo:substance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#modify"/>
+        <Class IRI="#sumo:selfConnectedObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#need"/>
+        <Class IRI="#sumo:corpuscularObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perform"/>
+        <Class IRI="#sumo:process"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#produce"/>
+        <Class IRI="#sumo:artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#select"/>
+        <Class IRI="#sumo:selfConnectedObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#use"/>
+        <Class IRI="#sumo:selfConnectedObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#useTechnique"/>
+        <Class IRI="#sumo:Method"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ActiveHammerstone</IRI>
+        <Literal xml:lang="en">A hammerstone that performs the movement to start the fracture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ActiveHammerstone</IRI>
+        <Literal>Active Hammerstone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ActiveHammerstone</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#Hammerstone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Agent</IRI>
+        <Literal xml:lang="en">An entity that acts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Agent</IRI>
+        <Literal>Mercuriali, P.R., Corbato, C.H., Langejans, G.H. (2022). ROCA: An Ontology to Describe and analyse Tool Use and Tool Making. bioRxiv, 2022-09.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Agent</IRI>
+        <Literal>Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AgentEnvironment</IRI>
+        <Literal xml:lang="en">The surroundings or context in which a system operates, and includes both physical and virtual aspects that can affect the behavior and decisions of the system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#AgentEnvironment</IRI>
+        <Literal>Angulo, C., Téllez, R. A., &amp; Pardo, D. E. (2009). Internal representation of the environment in cognitive robotics. International Journal of Robotics &amp; Automation, 24(3), 214.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#AgentEnvironment</IRI>
+        <Literal>Browne, W., Kawamura, K., Krichmar, J., Harwin, W., &amp; Wagatsuma, H. (2009). Cognitive robotics: new insights into robot and human intelligence by reverse engineering brain functions [from the guest editors]. IEEE Robotics &amp; Automation Magazine, 16(3), 17-18.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#AgentEnvironment</IRI>
+        <Literal>Lara, B., Astorga, D., Mendoza-Bock, E., Pardo, M., Escobar, E., Ciria, A. (2018). Embodied Cognitive Robotics and the Learning of Sensorimotor Schemes. Adaptive Behavior. 26(5):225-238. https://doi.org/10.1177/1059712318780679</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#AgentEnvironment</IRI>
+        <Literal>Shimoda, S., Jamone, L., Ognibene, D., Nagai, T., Sciutti, A., Costa-Garcia, A., Oseki, Y., Taniguchi, T. (2022). What is the Role of the Next Generation of Cognitive Robotics?. Advanced Robotics, 36:1-2, 3-16. https://doi.org/10.1080/01691864.2021.2011780</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#AgentEnvironment</IRI>
+        <Literal>Valenzo, D., Ciria, A., Schillaci, G., Lara, B. (2022). Grounding Context in Embodied Cognitive Robotics. Frontiers in Neurorobotics. 15, 16:843108. https://doi.org/10.3389/fnbot.2022.843108</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#AgentEnvironment</IRI>
+        <Literal>Wang, Y. (2010). Cognitive robots. IEEE robotics &amp; automation magazine, 17(4), 54-62.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AgentEnvironment</IRI>
+        <Literal>Agent Environment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Antler</IRI>
+        <Literal xml:lang="en">A branched bony structure that occurs almost exclusively in male animals of the Cervidae family. It is shed and regrown yearly, and covered with a thin, soft layer of skin and blood vessels that gets scraped off when it reaches itsmaximum size.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Antler</IRI>
+        <Literal>Nasoori, Alireza (2020). &quot;Formation, structure, and function of extra‐skeletal bones in mammals&quot;. Biological Reviews. 95 (4): 986–1019. doi:10.1111/brv.12597. PMID 32338826. S2CID 216556342.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Antler</IRI>
+        <Literal>Antler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AntlerTool</IRI>
+        <Literal xml:lang="en">A tool made of antler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#AntlerTool</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#Tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AntlerTool</IRI>
+        <Literal>Antler Tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Anvil</IRI>
+        <Literal>A block of relatively hard stone placed on the ground or steadied by other means, and used as a solid base.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Anvil</IRI>
+        <Literal>Inizian, M.L., Reduron-Ballinger, M., Roche, H., &amp; Tixier, J. (1999). Technology and terminology of knapped stone. Préhistoire de la pierre taillée tome 5, CREP.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Anvil</IRI>
+        <Literal>Anvil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AuxiliaryResource</IRI>
+        <Literal xml:lang="en">A resource used in a process that won’t be part of the final product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#AuxiliaryResource</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#Resource</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AuxiliaryResource</IRI>
+        <Literal>Auxiliary Resource</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Billet</IRI>
+        <Literal xml:lang="en">A percussive implement used to knap stone, but made of organic materal such as bone, antler or hard wood.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Billet</IRI>
+        <Literal>Odell GH (2004) Lithic analysis. Kluwer Academic, New York (Book). https://doi.org/10.1007/978-1-4419-9009-9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Billet</IRI>
+        <Literal>Billet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BipolarFlaking</IRI>
+        <Literal xml:lang="en">A technique for splitting nodules or cores in the interest of economizing raw material. The resulting flakes or wedges often show crushing on both proximal and distal ends, as the latter is stabilized on a hard surface.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#BipolarFlaking</IRI>
+        <Literal>Odell GH (2004) Lithic analysis. Kluwer Academic, New York (Book). https://doi.org/10.1007/978-1-4419-9009-9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BipolarFlaking</IRI>
+        <Literal>Bipolar Flaking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BlankFlake</IRI>
+        <Literal xml:lang="en">An unmodified stone in the form of a blocky fragment. flake or blade from which a tool could be fashioned</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#BlankFlake</IRI>
+        <Literal>Odell GH (2004) Lithic analysis. Kluwer Academic, New York (Book). https://doi.org/10.1007/978-1-4419-9009-9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BlankFlake</IRI>
+        <Literal>Blank Flake</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BoneTool</IRI>
+        <Literal xml:lang="en">A tool made of bone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#BoneTool</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#Tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BoneTool</IRI>
+        <Literal>Bone Tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Brittleness</IRI>
+        <Literal xml:lang="en">It is the susceptibility of a material to easily break, crack, or snap.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Brittleness</IRI>
+        <Literal>Derived from: https://www.oxfordlearnersdictionaries.com/definition/english/brittleness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Brittleness</IRI>
+        <Literal>Brittleness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Burin</IRI>
+        <Literal xml:lang="en">A flake tool with a chisel edge that was produced by the removal of two flakes or spalls at right angles to one another to create a very fine, sharp, and durable edge.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Burin</IRI>
+        <Literal>Burin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Burin</IRI>
+        <Literal>Andrefsky Jr, W. (2005). Lithics: Macroscopic Approaches to Analysis. Cambridge University Press. (Book). https://doi.org/10.1017/CBO9780511810244</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chopper</IRI>
+        <Literal xml:lang="en">A pebbles or block tool which exhibit an asymmetric cutting edge obtained by the removal of at least two large flakes from one face</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Chopper</IRI>
+        <Literal>Debénath, A., &amp; Dibble, H.L. (1993). Handbook of paleolithic typology. Volume one, Lower and middle paleolithic of Europe. Philadelphia: The University Museum: University of Pennsylvania, p.126. https://doi.org/10.9783/9781934536803</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Chopper</IRI>
+        <Literal>Chopper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CompositeEvaluation</IRI>
+        <Literal xml:lang="en">The process that encompasses both motor and mental actions aimed to evaluate the result of another process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#CompositeEvaluation</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#sumo:intentionalProcess</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CompositeEvaluation</IRI>
+        <Literal>Composite Evaluation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CoreReduction</IRI>
+        <Literal xml:lang="en">The process of shaping an objective piece by detaching chips.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#CoreReduction</IRI>
+        <Literal>Andrefsky Jr, W. (2005). Lithics: Macroscopic Approaches to Analysis. Cambridge University Press. (Book). https://doi.org/10.1017/CBO9780511810244</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CoreReduction</IRI>
+        <Literal>Core Reduction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CoreToolModel</IRI>
+        <Literal xml:lang="en">A mental model representing the way to make tools using stone cores</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#CoreToolModel</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#StoneCore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CoreToolModel</IRI>
+        <Literal>Core Tool Model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CrackedBone</IRI>
+        <Literal xml:lang="en">A bone that was fractured</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#CrackedBone</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#sumo:bone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CrackedBone</IRI>
+        <Literal>Cracked Bone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CrackingBone</IRI>
+        <Literal xml:lang="en">A task that consists in fracturing a bone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#CrackingBone</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#CrackedBone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CrackingBone</IRI>
+        <Literal>Cracking Bone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CraftingOperation</IRI>
+        <Literal xml:lang="en">The group of processes that encompass all aspects of crafting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#CraftingOperation</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#sumo:making</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CraftingOperation</IRI>
+        <Literal>Crafting Operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CraftingRole</IRI>
+        <Literal xml:lang="en">A role to be played in a Crafting Operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#CraftingRole</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#sumo:relationalAttribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CraftingRole</IRI>
+        <Literal>Crafting Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CraftingSequence</IRI>
+        <Literal xml:lang="en">The list of processes involved in crafting the intended tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#CraftingSequence</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#ToolMaking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CraftingSequence</IRI>
+        <Literal>Crafting Sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CuttingTask</IRI>
+        <Literal xml:lang="en">A task that consists into making an opening in something with a sharp edge</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#CuttingTask</IRI>
+        <Literal>Derived from: https://www.oxfordlearnersdictionaries.com/definition/english/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CuttingTask</IRI>
+        <Literal>Cutting Task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Debris</IRI>
+        <Literal xml:lang="en">A piece detached from a core that is discarded during the reduction process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Debris</IRI>
+        <Literal>Andrefsky Jr, W. (2005). Lithics: Macroscopic Approaches to Analysis. Cambridge University Press. (Book). https://doi.org/10.1017/CBO9780511810244</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Debris</IRI>
+        <Literal>Debris</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Flake</IRI>
+        <Literal xml:lang="en">A piece detached from a core during the reduction process that is intended to be used or retouched.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Flake</IRI>
+        <Literal>Andrefsky Jr, W. (2005). Lithics: Macroscopic Approaches to Analysis. Cambridge University Press. (Book). https://doi.org/10.1017/CBO9780511810244</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Flake</IRI>
+        <Literal>Flake</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FlakeRemoval</IRI>
+        <Literal xml:lang="en">Process of removing detached pieces from a core</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#FlakeRemoval</IRI>
+        <Literal>Andrefsky Jr, W. (2005). Lithics: Macroscopic Approaches to Analysis. Cambridge University Press. (Book). https://doi.org/10.1017/CBO9780511810244</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FlakeRemoval</IRI>
+        <Literal>Flake Removal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FlakeToolModel</IRI>
+        <Literal xml:lang="en">A mental model representing the way to make tools using stone flakes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#FlakeToolModel</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#Flake</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FlakeToolModel</IRI>
+        <Literal>Flake Tool Model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FlakingTechniques</IRI>
+        <Literal xml:lang="en">The practical manner chosen remove pieces from a stone core.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#FlakingTechniques</IRI>
+        <Literal>Inizian, M.L., Reduron-Ballinger, M., Roche, H., &amp; Tixier, J. (1999). Technology and terminology of knapped stone. Préhistoire de la pierre taillée tome 5, CREP.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FlakingTechniques</IRI>
+        <Literal>Flaking Techniques</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FreehandFlaking</IRI>
+        <Literal xml:lang="en">A technique that consists in holding the nodule from which flakes are to be removed in one hand and may be supported on the ground or on one leg.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#FreehandFlaking</IRI>
+        <Literal>Odell GH (2004) Lithic analysis. Kluwer Academic, New York (Book). https://doi.org/10.1007/978-1-4419-9009-9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FreehandFlaking</IRI>
+        <Literal>Free Hand Flaking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Goal</IRI>
+        <Literal xml:lang="en">The final product that fulfils the agent need.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Goal</IRI>
+        <Literal>Derived from http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#sumo:artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Goal</IRI>
+        <Literal>Goal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hammerstone</IRI>
+        <Literal>A rock used as a percussor to detach flakes from an objective piece. These usually show signs of impact damage such as crushed edges.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Hammerstone</IRI>
+        <Literal>Andrefsky Jr, W. (2005). Lithics: Macroscopic Approaches to Analysis. Cambridge University Press. (Book). https://doi.org/10.1017/CBO9780511810244</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hammerstone</IRI>
+        <Literal>Hammerstone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HardHammerFlaking</IRI>
+        <Literal xml:lang="en">The technique of removing pieces from a stone core using a hard hammer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#HardHammerFlaking</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#FlakeRemoval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HardHammerFlaking</IRI>
+        <Literal>Hard Hammer Flaking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Isotropism</IRI>
+        <Literal xml:lang="en">It is a property exhibited by some minerals, where they show the same physical properties in all directions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Isotropism</IRI>
+        <Literal>Neuendorf, K. K. E., J. P. Mehl Jr., and J. A. Jackson. 2005. Glossary of geology. Fifth edition. American Geological Institute, Alexandria, Virginia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Isotropism</IRI>
+        <Literal>Isotropism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LevalloisSequence</IRI>
+        <Literal xml:lang="en">A method that consists of the manufacture of a flake using a  predetermined special preparation of the core prior to its removal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#LevalloisSequence</IRI>
+        <Literal>Inizian, M.L., Reduron-Ballinger, M., Roche, H., &amp; Tixier, J. (1999). Technology and terminology of knapped stone. Préhistoire de la pierre taillée tome 5, CREP.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LevalloisSequence</IRI>
+        <Literal>Levallois Sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LithicTechnology</IRI>
+        <Literal xml:lang="en">The process of stone tool production and manufacture.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#LithicTechnology</IRI>
+        <Literal>Andrefsky Jr, W. (2005). Lithics: Macroscopic Approaches to Analysis. Cambridge University Press. (Book). https://doi.org/10.1017/CBO9780511810244</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LithicTechnology</IRI>
+        <Literal>Lithic Technology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lomekwian</IRI>
+        <Literal xml:lang="en">A  typological classification of stone tools that refers to the archaeological site at Lomekwi 3 in Kenya, where the tools were first discovered.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Lomekwian</IRI>
+        <Literal>Toth, N., and K. Schick. 2009. &quot;Early hominids.&quot; In The Oxford handbook of archaeology, edited by B. Cunliffe, C. Gosden and R.A. Joyce, 254-289. Oxford: Oxford University Press.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lomekwian</IRI>
+        <Literal>Lomekwian Industry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MaterialDiscovering</IRI>
+        <Literal xml:lang="en">The process of discovering materials to be used in other processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#MaterialDiscovering</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#sumo:discovery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MaterialDiscovering</IRI>
+        <Literal>Material Discovery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MaterialEvaluation</IRI>
+        <Literal xml:lang="en">The process of evaluating the suitability of materials to be used in other processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#MaterialEvaluation</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#Procurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MaterialEvaluation</IRI>
+        <Literal>Material Evaluation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Oldowan</IRI>
+        <Literal xml:lang="en">A typological classification of stone tools that refers to the archaeological site at Olduvai Gorge in Tanzania, where the tools were first discovered.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Oldowan</IRI>
+        <Literal>Toth, N., and K. Schick. 2009. &quot;Early hominids.&quot; In The Oxford handbook of archaeology, edited by B. Cunliffe, C. Gosden and R.A. Joyce, 254-289. Oxford: Oxford University Press.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Oldowan</IRI>
+        <Literal>Oldowan Industry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PassiveHammerFlaking</IRI>
+        <Literal xml:lang="en">The technique of obtaining flakes that consists in a stone core being struck against a passive hammerstone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PassiveHammerFlaking</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#PassiveHammerstone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PassiveHammerFlaking</IRI>
+        <Literal>Passive Hammer Flaking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PassiveHammerstone</IRI>
+        <Literal xml:lang="en">A hammerstone that remains immobile and is hit by the core to start a fracture.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PassiveHammerstone</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#Hammerstone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PassiveHammerstone</IRI>
+        <Literal>Passive Hammerstone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PercussiveOperation</IRI>
+        <Literal xml:lang="en">The application of a force destined to fracture materials.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PercussiveOperation</IRI>
+        <Literal>Inizian, M.L., Reduron-Ballinger, M., Roche, H., &amp; Tixier, J. (1999). Technology and terminology of knapped stone. Préhistoire de la pierre taillée tome 5, CREP.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PercussiveOperation</IRI>
+        <Literal>Percussive Operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PoundingTask</IRI>
+        <Literal xml:lang="en">A task that consists of striking one object against another to modify it or reduce it into smaller fragments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PoundingTask</IRI>
+        <Literal>&quot;Harmand, S., Lewis, J.E., Feibel, C.S., Lepre, C.J., Prat, S., Lenoble, A., Boës, X., Quinn, 	R.L., Brenet, M., Arroyo, A. and Taylor, N., 2015. 3.3-million-year-old stone tools 	from Lomekwi 3, West Turkana, Kenya. Nature, 521(7552), pp.310-315.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PoundingTask</IRI>
+        <Literal>Pounding Task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PressureFlaker</IRI>
+        <Literal xml:lang="en">A blunt pointed tool used to apply pressure to the edges of a stone for the removal of flakes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PressureFlaker</IRI>
+        <Literal>Odell GH (2004) Lithic analysis. Kluwer Academic, New York (Book). https://doi.org/10.1007/978-1-4419-9009-9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PressureFlaker</IRI>
+        <Literal>Pressure Flaker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Procurement</IRI>
+        <Literal xml:lang="en">The process of obtaining supplies to fulfill a task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Procurement</IRI>
+        <Literal>Derived from http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#CraftingOperation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Procurement</IRI>
+        <Literal>Procurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Punch</IRI>
+        <Literal xml:lang="en">A device that enables the knapper to control the precise spot to receive the force, which is transferred from the percussor through the punch into the body of the core.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Punch</IRI>
+        <Literal>Odell GH (2004) Lithic analysis. Kluwer Academic, New York (Book). https://doi.org/10.1007/978-1-4419-9009-9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Punch</IRI>
+        <Literal>Punch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RawMaterial</IRI>
+        <Literal xml:lang="en">A role of a material that has been not changed, but has potential for being used in a product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#RawMaterial</IRI>
+        <Literal>https://www.oxfordlearnersdictionaries.com/definition/english/raw-material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RawMaterial</IRI>
+        <Literal>Raw Material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RawMaterialAcquisition</IRI>
+        <Literal xml:lang="en">The process that acquires the raw materials needed to make a tool are acquired</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#RawMaterialAcquisition</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#RawMaterial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RawMaterialAcquisition</IRI>
+        <Literal>Raw Material Acquisition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ReducedStoneCore</IRI>
+        <Literal xml:lang="en">A core from where flakes have been removed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ReducedStoneCore</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#StoneCore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ReducedStoneCore</IRI>
+        <Literal>Reduced Stone Core</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Resource</IRI>
+        <Literal xml:lang="en">An object that has been selected to fulfill a role in an Crafting Operation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Resource</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#CraftingRole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Resource</IRI>
+        <Literal>Resource</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ResultEvaluation</IRI>
+        <Literal xml:lang="en">The process of evaluating the effects of the use of a tool  on a material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ResultEvaluation</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#ToolUse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ResultEvaluation</IRI>
+        <Literal>Result Evaluation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RockGrainSize</IRI>
+        <Literal xml:lang="en">Measurement of the diameter of individual grains of particles in clastic rocks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#RockGrainSize</IRI>
+        <Literal>Neuendorf, K. K. E., J. P. Mehl Jr., and J. A. Jackson. 2005. Glossary of geology. Fifth edition. American Geological Institute, Alexandria, Virginia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RockGrainSize</IRI>
+        <Literal>Rock Grain Size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Scraper</IRI>
+        <Literal xml:lang="en">A generalized term used to describe a flake tool that has a retouched edge angle of approximately 60 to 90 degrees.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Scraper</IRI>
+        <Literal>Andrefsky Jr, W. (2005). Lithics: Macroscopic Approaches to Analysis. Cambridge University Press. (Book). https://doi.org/10.1017/CBO9780511810244</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Scraper</IRI>
+        <Literal>Scraper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ScrapingTask</IRI>
+        <Literal xml:lang="en">A task consisting of removing something from a surface by moving a sharp and hard edge across it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ScrapingTask</IRI>
+        <Literal>Derived from:  https://www.oxfordlearnersdictionaries.com/definition/english/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ScrapingTask</IRI>
+        <Literal>Scraping Task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SharpEdgeLenght</IRI>
+        <Literal xml:lang="en">The length of the sharp edge of a tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#SharpEdgeLenght</IRI>
+        <Literal>Derived from: https://www.oxfordlearnersdictionaries.com/definition/english/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SharpEdgeLenght</IRI>
+        <Literal>Sharp Edge Lenght</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SizeAttribute</IRI>
+        <Literal xml:lang="en">The attribute that measures the size of an artefact.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#SizeAttribute</IRI>
+        <Literal>Derived from: https://www.oxfordlearnersdictionaries.com/definition/english/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SizeAttribute</IRI>
+        <Literal>Size Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StoneCore</IRI>
+        <Literal xml:lang="en">A nucleus or mass of rock that shows signs of detached piece removal. A core is often considered an objective piece that functions primarily as a source for detached pieces.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#StoneCore</IRI>
+        <Literal>Andrefsky Jr, W. (2005). Lithics: Macroscopic Approaches to Analysis. Cambridge University Press. (Book). https://doi.org/10.1017/CBO9780511810244</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StoneCore</IRI>
+        <Literal>Stone Core</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StoneTool</IRI>
+        <Literal xml:lang="en">A stone artifact that has been intentionally modified by retouch or unintentionally modified by usewear.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#StoneTool</IRI>
+        <Literal>Andrefsky Jr, W. (2005). Lithics: Macroscopic Approaches to Analysis. Cambridge University Press. (Book). https://doi.org/10.1017/CBO9780511810244</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StoneTool</IRI>
+        <Literal>Stone Tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StoneToolIndustries</IRI>
+        <Literal xml:lang="en">The typological classification of stone tools used by Archaeology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#StoneToolIndustries</IRI>
+        <Literal>Toth, N., and K. Schick. 2009. &quot;Early hominids.&quot; In The Oxford handbook of archaeology, edited by B. Cunliffe, C. Gosden and R.A. Joyce, 254-289. Oxford: Oxford University Press.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StoneToolIndustries</IRI>
+        <Literal>Stone Tool Industry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StoneToolModel</IRI>
+        <Literal xml:lang="en">The model of production of a stone tool, which can be made using a flake removed from a stone core, or the stone core itself.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#StoneToolModel</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#sumo:Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StoneToolModel</IRI>
+        <Literal>Stone Tool Model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StructuralAttribute</IRI>
+        <Literal xml:lang="en">The attributes belonging to the object&apos;s structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#StructuralAttribute</IRI>
+        <Literal>Derived from:  http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#StructuralAttribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StructuralAttribute</IRI>
+        <Literal>Structural Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Task</IRI>
+        <Literal xml:lang="en">The process by which a specific, well-defined problem or objective can be accomplished by an AI system or robot.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Task</IRI>
+        <Literal>Kawamura, K., Browne, W. (2009). Cognitive Robotics. In: Meyers, R. (eds) Encyclopedia of Complexity and Systems Science. Springer, New York, NY. https://doi.org/10.1007/978-0-387-30440-3_74</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Task</IRI>
+        <Literal>Rasheed, N., Amin, S.H.M., Sultana, U., Shakoor, R., Zareen, N., Bhatti, A.R. (2016). Theoretical Accounts to Practical Models: Grounding Phenomenon for Abstract Words in Cognitive Robots. Cognitive Systems Research, 480, 86-98, https://doi.org/10.1016/j.cogsys.2016.05.001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Task</IRI>
+        <Literal>Valenzo, D., Ciria, A., Schillaci, G., Lara, B. (2022). Grounding Context in Embodied Cognitive Robotics. Frontiers in Neurorobotics. 15, 16:843108. https://doi.org/10.3389/fnbot.2022.843108</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Task</IRI>
+        <Literal>Task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TaskMaterial</IRI>
+        <Literal xml:lang="en">The role of a material to be used fulfilling the task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#TaskMaterial</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#CraftingRole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TaskMaterial</IRI>
+        <Literal>Task Material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TaskSequence</IRI>
+        <Literal xml:lang="en">The process steps to be followed to fulfil the task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#TaskSequence</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#ToolUse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TaskSequence</IRI>
+        <Literal>Task Sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tool</IRI>
+        <Literal xml:lang="en">An object that acts as a body extension of the agent and affords certain actions for specific goals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Tool</IRI>
+        <Literal>MetaTool Consortium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Tool</IRI>
+        <Literal>Ward, Jamie. The Student Guide to Cognitive Neuroscience. Psychology Press, 2015.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tool</IRI>
+        <Literal>Tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ToolEvaluation</IRI>
+        <Literal xml:lang="en">The process of evaluating the suitability of the constructed tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ToolEvaluation</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#ToolMaking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ToolEvaluation</IRI>
+        <Literal>Tool Evaluation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ToolMaking</IRI>
+        <Literal xml:lang="en">The process of making a tool to fulfil a task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ToolMaking</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#CraftingOperation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ToolMaking</IRI>
+        <Literal>Tool Making</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ToolProduct</IRI>
+        <Literal xml:lang="en">The expected result of a Tool-Making Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ToolProduct</IRI>
+        <Literal>Derived from:http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#CraftingRole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ToolProduct</IRI>
+        <Literal>Tool Product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ToolSelecting</IRI>
+        <Literal xml:lang="en">The process of selecting a suitable tool for accomplishing a task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ToolSelecting</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#sumo:selecting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ToolSelecting</IRI>
+        <Literal>Tool Selecting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ToolUse</IRI>
+        <Literal xml:lang="en">The process of using a tool to fulfil a task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ToolUse</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#CraftingOperation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ToolUse</IRI>
+        <Literal>Tool Use</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WoodenTool</IRI>
+        <Literal xml:lang="en">A tool made of wood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#WoodenTool</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#Tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WoodenTool</IRI>
+        <Literal>Wooden Tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WorkedMaterial</IRI>
+        <Literal xml:lang="en">A material that have been changed in some extent by the use of a tool.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#WorkedMaterial</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#CraftingRole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WorkedMaterial</IRI>
+        <Literal>Worked Material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WorkedResource</IRI>
+        <Literal xml:lang="en">A resource that have been changed in some extent by the Tool Making Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#WorkedResource</IRI>
+        <Literal>Derived from: http://www.semanticweb.org/apeixe/ontologies/2024/2/MetaToolV2#CraftingRole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WorkedResource</IRI>
+        <Literal>Worked Resource</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:Entity</IRI>
+        <Literal xml:lang="en">The universal class of individuals. This is the root node of the ontology.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:Entity</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:Entity</IRI>
+        <Literal xml:lang="en">Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:Method</IRI>
+        <Literal xml:lang="en">A way of doing something, especially a systematic one; implies an orderly logical arrangement (usually in steps).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:Method</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:Method</IRI>
+        <Literal>Method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:Plan</IRI>
+        <Literal xml:lang="en">A specification of a sequence of Processes which is intended to satisfy a specified purpose at some future time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:Plan</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:Plan</IRI>
+        <Literal>Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:Stone</IRI>
+        <Literal xml:lang="en">A Stone is any small fragment of rock or mineral matter.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:Stone</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:Stone</IRI>
+        <Literal>Stone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:Technique</IRI>
+        <Literal xml:lang="en">A practical Method or art applied to some particular task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:Technique</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:Technique</IRI>
+        <Literal>Technique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:abstract</IRI>
+        <Literal xml:lang="en">Properties or qualities as distinguished from any particular
+embodiment of the properties/qualities in a physical medium. Instances
+of Abstract can be said to exist in the same sense as mathematical
+objects such as sets and relations, but they cannot exist at a
+particular place and time without some physical encoding or
+embodiment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:abstract</IRI>
+        <Literal>https://www.ontologyportal.org/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:abstract</IRI>
+        <Literal>Abstract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:ambulating</IRI>
+        <Literal xml:lang="en">Any BodyMotion which is accomplished by means of the legs of an Animal for the purpose of moving from one point to another.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:ambulating</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:ambulating</IRI>
+        <Literal>Ambulating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:artifact</IRI>
+        <Literal xml:lang="en">An object that is the product of a making.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:artifact</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:artifact</IRI>
+        <Literal>Artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:attribute</IRI>
+        <Literal xml:lang="en">Entities that abstract qualities that cannot or are chosen not to be reified as subclasses of Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:attribute</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:attribute</IRI>
+        <Literal>Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:bodyMotion</IRI>
+        <Literal xml:lang="en">Any Motion where the agent is an Organism and the patient is a BodyPart.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:bodyMotion</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:bodyMotion</IRI>
+        <Literal>Body Motion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:bodySubstance</IRI>
+        <Literal xml:lang="en">Extracellular material and mixtures of cells and extracellular material that are produced, excreted or accreted by an Organism. Included here are Substances such as saliva, dental enamel, sweat, hormones, and gastric acid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:bodySubstance</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:bodySubstance</IRI>
+        <Literal>Body Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:bone</IRI>
+        <Literal xml:lang="en">Rigid Tissue composed largely of calcium that makes up the skeleton of Vertebrates.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:bone</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:bone</IRI>
+        <Literal>Bone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:corpuscularObject</IRI>
+        <Literal xml:lang="en">A SelfConnectedObject whose parts have properties that are not shared by the whole.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:corpuscularObject</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:corpuscularObject</IRI>
+        <Literal>Corpuscular Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:deciding</IRI>
+        <Literal xml:lang="en">The subclass of Selecting where the agent opts for one course of action out of a set of multiple possibilities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:deciding</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:deciding</IRI>
+        <Literal>Deciding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:device</IRI>
+        <Literal xml:lang="en">An artifact whose purpose is to serve as an instrument in a specific subclass of a process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:device</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:device</IRI>
+        <Literal>Device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:discovery</IRI>
+        <Literal xml:lang="en">Finding something that was sought. Note that this class is restricted to cases of discovering something Physical.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:discovery</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:discovery</IRI>
+        <Literal>Discovery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:eyeMotion</IRI>
+        <Literal xml:lang="en">Any Motion where a patient is the agent&apos;s own eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:eyeMotion</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:eyeMotion</IRI>
+        <Literal>Eye Motion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:geographicArea</IRI>
+        <Literal xml:lang="en">A geographic location, generally having definite boundaries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:geographicArea</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:geographicArea</IRI>
+        <Literal>Geographic Area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:grabbing</IRI>
+        <Literal xml:lang="en">Any instance of Touching which results in a situation where the agent grasps the patient of the Touching</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:grabbing</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:grabbing</IRI>
+        <Literal>Grabbing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:impacting</IRI>
+        <Literal xml:lang="en">Any Touching where something comes into sudden, forceful, physical contact with something else.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:impacting</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:impacting</IRI>
+        <Literal>Impacting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:intentionalProcess</IRI>
+        <Literal xml:lang="en">A Process that has a specific purpose for the Agent who performs it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:intentionalProcess</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:intentionalProcess</IRI>
+        <Literal>Intentional Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:intentionalPsychologicalProcess</IRI>
+        <Literal xml:lang="en">An IntentionalProcess is a process that can be realized entirely within the mind or brain of an Organism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:intentionalPsychologicalProcess</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:intentionalPsychologicalProcess</IRI>
+        <Literal>Intentional Psychological Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:internalAttribute</IRI>
+        <Literal xml:lang="en">Any Attribute of an Entity that is an internal property of the Entity, e.g. its shape, its color, its fragility, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:internalAttribute</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:internalAttribute</IRI>
+        <Literal>Internal Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:looking</IRI>
+        <Literal xml:lang="en">Any instance of Seeing which is intentional.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:looking</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:looking</IRI>
+        <Literal>Looking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:making</IRI>
+        <Literal xml:lang="en">The subclass of Creation in which an individual Artifact or a type of Artifact is made.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:making</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:making</IRI>
+        <Literal>Making</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:motion</IRI>
+        <Literal xml:lang="en">Any Process of movement.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:motion</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:motion</IRI>
+        <Literal>Motion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:object</IRI>
+        <Literal xml:lang="en">Entities that exist in space, having spatial parts parallel in time. Examples include: normal physical objects, geographical regions, locations of processes, and the complement of objects in the physical class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:object</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:object</IRI>
+        <Literal>Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:physical</IRI>
+        <Literal xml:lang="en">An entity that has a location in space-time. Note that locations are
+themselves understood to have a location in space-time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:physical</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:physical</IRI>
+        <Literal>Physical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:procedure</IRI>
+        <Literal xml:lang="en">A sequence-dependent specification.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:procedure</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:procedure</IRI>
+        <Literal>Procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:process</IRI>
+        <Literal xml:lang="en">Entities that happen in time and have temporal parts or stages</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:process</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:process</IRI>
+        <Literal>Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:processTask</IRI>
+        <Literal xml:lang="en">A function to be performed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:processTask</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:processTask</IRI>
+        <Literal>Process Task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:proposition</IRI>
+        <Literal xml:lang="en">Propositions are Abstract entities that express a complete thought or a set of such thoughts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:proposition</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:proposition</IRI>
+        <Literal>Proposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:region</IRI>
+        <Literal xml:lang="en">A topographic location. Regions encompass surfaces of Objects, imaginary places, and GeographicAreas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:region</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:region</IRI>
+        <Literal>Region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:relationalAttribute</IRI>
+        <Literal xml:lang="en">Any Attribute that an Entity has by virtue of a relationship that it bears to another Entity or set of Entities, e.g. SocialRoles and PositionalAttributes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:relationalAttribute</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:relationalAttribute</IRI>
+        <Literal>Relational Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:rock</IRI>
+        <Literal xml:lang="en">Rock is any naturally formed aggregate of one or more minerals, consolidated or not, with some degree of mineralogic and chemical constancy, in popular use the term is usually restricted to those aggregates that are hard, compact, and coherent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:rock</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:rock</IRI>
+        <Literal>Rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:rotating</IRI>
+        <Literal xml:lang="en">Movement of turning on or around an axis or a center</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:rotating</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:rotating</IRI>
+        <Literal>Rotating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:satisfyingRequirements</IRI>
+        <Literal xml:lang="en">SatisfyingRequirements covers cases of finding a solution that satisfies necessary conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:satisfyingRequirements</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:satisfyingRequirements</IRI>
+        <Literal>Satisfying Requirements</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:selecting</IRI>
+        <Literal xml:lang="en">The Class of IntentionalPsychologicalProcesses which involve opting for one or more Entity out of a larger set of Entities. Note that this covers all cases of judging or evaluating.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:selecting</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:selecting</IRI>
+        <Literal>Selecting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:selfConnectedObject</IRI>
+        <Literal xml:lang="en">A SelfConnectedObject is any Object that does not consist of two or more disconnected parts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:selfConnectedObject</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:selfConnectedObject</IRI>
+        <Literal>Self Connected Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:substance</IRI>
+        <Literal xml:lang="en">An Object in which every part is similar to every other in every relevant respect. More precisely, something is a Substance when it has only arbitrary pieces as parts - any parts have properties which are similar to those of the whole.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:substance</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:substance</IRI>
+        <Literal>Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:tissue</IRI>
+        <Literal xml:lang="en">An aggregation of similarly specialized Cells and the associated intercellular substance. Tissues are relatively non-localized in comparison to BodyParts, Organs or Organ components. The main features of Tissues are self-connectivity (see SelfConnectedObject) and being a homogeneous mass (all parts in the same granularity are instances of Tissue as well).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:tissue</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:tissue</IRI>
+        <Literal>Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:touching</IRI>
+        <Literal xml:lang="en">Any Transfer where two Objects are brought into immediate physical contact with one another.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:touching</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:touching</IRI>
+        <Literal>Touching</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:transfer</IRI>
+        <Literal xml:lang="en">Any instance of Translocation where the agent and the patient are not the same thing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:transfer</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:transfer</IRI>
+        <Literal>Transfer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:translocation</IRI>
+        <Literal xml:lang="en">Translocation is that class of Motions in which an object moves from one place to another. In the case of round trips, the origin and destination are the same, but the intervening motion passes through other locations. Translocation represents linear motion, in contrast to rotation or \other movement in place. A vehicle is not necessary, Ambulating is a kind of Translocation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:translocation</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:translocation</IRI>
+        <Literal>Translocation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sumo:wood</IRI>
+        <Literal xml:lang="en">Tissue that comprises the inner trunk of BotanicalTrees. It is often used in constructing Buildings and other Artifacts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sumo:wood</IRI>
+        <Literal>http://www.ontologyportal.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sumo:wood</IRI>
+        <Literal>Wood</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
